@@ -41,7 +41,7 @@
     {
       "name": "CopperMesh",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "copper_mesh",
       "metadata": {
@@ -68,7 +68,7 @@
     {
       "name": "CopperRod",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "copper_rod",
       "metadata": {
@@ -82,7 +82,7 @@
     {
       "name": "CopperScrew",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "copper_screw",
       "metadata": {
@@ -96,7 +96,7 @@
     {
       "name": "CopperSheet",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "copper_sheet",
       "metadata": {
@@ -110,7 +110,7 @@
     {
       "name": "CopperTube",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "copper_tube",
       "metadata": {
@@ -124,7 +124,7 @@
     {
       "name": "CopperSpring",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "copper_spring",
       "metadata": {
