@@ -23,5 +23,7 @@ public class HandcraftedModTabs {
 				tabData.accept(HandcraftedModItems.COPPER_MESH.get());
 				tabData.accept(HandcraftedModItems.COPPER_ROD.get());
 				tabData.accept(HandcraftedModItems.COPPER_SCREW.get());
+				tabData.accept(HandcraftedModItems.COPPER_TUBE.get());
+				tabData.accept(HandcraftedModItems.COPPER_SPRING.get());
 			}).build());
 }

@@ -1,7 +1,7 @@
 package net.sethyn.handcrafted.item;
 
-public class CopperMeshItem extends Item {
-	public CopperMeshItem() {
+public class CopperTubeItem extends Item {
+	public CopperTubeItem() {
 		super(new Item.Properties());
 	}
 }

@@ -39,19 +39,6 @@
       }
     },
     {
-      "name": "CopperCogR",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "copper_cog_r",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/handcrafted/recipe/copper_cog_r.json"
-        ]
-      },
-      "path": "~/Items/Components/Copper/seth/Recipes"
-    },
-    {
       "name": "CopperMesh",
       "type": "item",
       "compiles": true,
@@ -64,6 +51,19 @@
         ]
       },
       "path": "~/Items/Components/Copper/seth"
+    },
+    {
+      "name": "CopperCogR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_cog_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/handcrafted/recipe/copper_cog_r.json"
+        ]
+      },
+      "path": "~/Items/Components/Copper/seth/Recipes"
     },
     {
       "name": "CopperRod",
@@ -92,6 +92,48 @@
         ]
       },
       "path": "~/Items/Components/Copper/seth"
+    },
+    {
+      "name": "CopperSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sheet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/CopperSheetItem.java",
+          "src/main/resources/assets/handcrafted/models/item/copper_sheet.json"
+        ]
+      },
+      "path": "~/Items/Components/Copper/wave"
+    },
+    {
+      "name": "CopperTube",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tube",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/copper_tube.json",
+          "src/main/java/net/sethyn/handcrafted/item/CopperTubeItem.java"
+        ]
+      },
+      "path": "~/Items/Components/Copper/wave"
+    },
+    {
+      "name": "CopperSpring",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_spring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/copper_spring.json",
+          "src/main/java/net/sethyn/handcrafted/item/CopperSpringItem.java"
+        ]
+      },
+      "path": "~/Items/Components/Copper/wave"
     }
   ],
   "variable_elements": [],
@@ -100,12 +142,9 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.handcrafted.copper_cog": "Copper Cog",
-      "item.handcrafted.copper_wire": "Copper Wire",
       "item_group.handcrafted.handcrafted": "Handcrafted",
-      "item.handcrafted.copper_mesh": "Copper Mesh",
-      "item.handcrafted.copper_rod": "Copper Rod",
-      "item.handcrafted.copper_screw": "Copper Screw"
+      "item.handcrafted.copper_cog": "Copper Cog",
+      "item.handcrafted.copper_wire": "Copper Wire"
     }
   },
   "metadata": {
