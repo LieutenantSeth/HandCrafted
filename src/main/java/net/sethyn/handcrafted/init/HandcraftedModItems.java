@@ -41,6 +41,8 @@ public class HandcraftedModItems {
 	public static final DeferredItem<Item> TIE_ROD = REGISTRY.register("tie_rod", TieRodItem::new);
 	public static final DeferredItem<Item> COPPER_MAGNET_ASSEMBLY = REGISTRY.register("copper_magnet_assembly", CopperMagnetAssemblyItem::new);
 	public static final DeferredItem<Item> IRON_RING = REGISTRY.register("iron_ring", IronRingItem::new);
+	public static final DeferredItem<Item> COAL_DUST = REGISTRY.register("coal_dust", CoalDustItem::new);
+	public static final DeferredItem<Item> CARBON_FIBRE = REGISTRY.register("carbon_fibre", CarbonFibreItem::new);
 	// Start of user code block custom items
 	// End of user code block custom items
 }

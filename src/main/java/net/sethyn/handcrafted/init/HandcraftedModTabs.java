@@ -43,5 +43,7 @@ public class HandcraftedModTabs {
 				tabData.accept(HandcraftedModItems.TIE_ROD.get());
 				tabData.accept(HandcraftedModItems.COPPER_MAGNET_ASSEMBLY.get());
 				tabData.accept(HandcraftedModItems.IRON_RING.get());
+				tabData.accept(HandcraftedModItems.COAL_DUST.get());
+				tabData.accept(HandcraftedModItems.CARBON_FIBRE.get());
 			}).build());
 }

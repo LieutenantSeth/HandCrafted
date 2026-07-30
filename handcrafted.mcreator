@@ -492,6 +492,34 @@
         ]
       },
       "path": "~/Items/Components/Iron/recipes"
+    },
+    {
+      "name": "CoalDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/CoalDustItem.java",
+          "src/main/resources/assets/handcrafted/models/item/coal_dust.json"
+        ]
+      },
+      "path": "~/Items/Generic"
+    },
+    {
+      "name": "CarbonFibre",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carbon_fibre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/CarbonFibreItem.java",
+          "src/main/resources/assets/handcrafted/models/item/carbon_fibre.json"
+        ]
+      },
+      "path": "~/Items/Components/Materials"
     }
   ],
   "variable_elements": [],
@@ -532,7 +560,9 @@
       "advancements.revolutionary_idea.title": "Rev-olutionary Idea",
       "item.handcrafted.tie_rod": "Tie Rod",
       "item.handcrafted.copper_magnet_assembly": "Copper Magnet Assembly",
-      "item.handcrafted.iron_ring": "Iron Ring"
+      "item.handcrafted.iron_ring": "Iron Ring",
+      "item.handcrafted.coal_dust": "Coal Dust",
+      "item.handcrafted.carbon_fibre": "Carbon Fibre"
     }
   },
   "metadata": {
@@ -640,14 +670,31 @@
                     "children": []
                   }
                 ]
+              },
+              {
+                "name": "Materials",
+                "children": []
               }
             ]
+          },
+          {
+            "name": "Generic",
+            "children": []
           }
         ]
       },
       {
         "name": "Achivments",
         "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Functional",
+            "children": []
+          }
+        ]
       }
     ]
   },
