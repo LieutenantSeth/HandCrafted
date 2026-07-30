@@ -1,37 +1,55 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "CopperCog",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_cog",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/CopperCogItem.java",
+          "src/main/resources/assets/handcrafted/models/item/copper_cog.json"
+        ]
+      },
+      "path": "~/Items/Components/Copper/seth"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.handcrafted.copper_cog": "Copper Cog"
+    }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/sethyn/handcrafted/ai/MoveToStructureGoal.java",
-      "src/main/java/net/sethyn/handcrafted/client/renderer/SemiAquaticRenderer.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/LivingEntityRendererMixin.java",
-      "src/main/java/net/sethyn/handcrafted/client/renderer/CustomEyeOfEnderRenderer.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/sethyn/handcrafted/entity/CustomEyeOfEnderEntity.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/CameraAccessor.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/EntityRenderDispatcherMixin.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/LevelRendererMixin.java",
-      "src/main/resources/handcrafted.mixins.json",
-      "src/main/java/net/sethyn/handcrafted/network/PlayPlayerAnimationMessage.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/ItemInHandLayerMixin.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/PlayerAnimationMixin.java",
-      "src/main/java/net/sethyn/handcrafted/entity/CustomFireballEntity.java",
-      "src/main/java/net/sethyn/handcrafted/client/renderer/CustomFireballRenderer.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/net/sethyn/handcrafted/init/HandcraftedModItems.java",
       "src/main/java/net/sethyn/handcrafted/mixin/PlayerAnimationRendererMixin.java",
+      "src/main/java/net/sethyn/handcrafted/client/renderer/SemiAquaticRenderer.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/ItemInHandLayerMixin.java",
       "src/main/java/net/sethyn/handcrafted/client/ItemArms.java",
-      "src/main/java/net/sethyn/handcrafted/client/RenderUtils.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/LevelRendererMixin.java",
+      "src/main/java/net/sethyn/handcrafted/entity/CustomEyeOfEnderEntity.java",
+      "src/main/resources/handcrafted.mixins.json",
+      "src/main/java/net/sethyn/handcrafted/client/renderer/CustomEyeOfEnderRenderer.java",
       "src/main/java/net/sethyn/handcrafted/HandcraftedModPlayerAnimationAPI.java",
+      "src/main/java/net/sethyn/handcrafted/ai/MoveToStructureGoal.java",
       "src/main/java/net/sethyn/handcrafted/HandcraftedMod.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/sethyn/handcrafted/mixin/CameraAccessor.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/sethyn/handcrafted/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/net/sethyn/handcrafted/client/RenderUtils.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/EntityRenderDispatcherMixin.java",
+      "src/main/java/net/sethyn/handcrafted/client/renderer/CustomFireballRenderer.java",
+      "src/main/java/net/sethyn/handcrafted/network/PlayPlayerAnimationMessage.java",
+      "src/main/java/net/sethyn/handcrafted/entity/CustomFireballEntity.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/sethyn/handcrafted/mixin/PlayerAnimationMixin.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/LivingEntityRendererMixin.java"
     ]
   },
   "foldersRoot": {
@@ -48,7 +66,12 @@
                 "children": [
                   {
                     "name": "seth",
-                    "children": []
+                    "children": [
+                      {
+                        "name": "Recipes",
+                        "children": []
+                      }
+                    ]
                   },
                   {
                     "name": "wave",
