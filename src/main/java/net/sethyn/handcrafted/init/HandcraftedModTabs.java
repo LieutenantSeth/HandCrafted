@@ -25,5 +25,13 @@ public class HandcraftedModTabs {
 				tabData.accept(HandcraftedModItems.COPPER_SCREW.get());
 				tabData.accept(HandcraftedModItems.COPPER_TUBE.get());
 				tabData.accept(HandcraftedModItems.COPPER_SPRING.get());
+				tabData.accept(HandcraftedModItems.IRON_COG.get());
+				tabData.accept(HandcraftedModItems.IRON_SPRING.get());
+				tabData.accept(HandcraftedModItems.IRON_MESH.get());
+				tabData.accept(HandcraftedModItems.IRON_ROD.get());
+				tabData.accept(HandcraftedModItems.IRON_SCREW.get());
+				tabData.accept(HandcraftedModItems.IRON_SHEET.get());
+				tabData.accept(HandcraftedModItems.IRON_TUBE.get());
+				tabData.accept(HandcraftedModItems.IRON_WIRE.get());
 			}).build());
 }

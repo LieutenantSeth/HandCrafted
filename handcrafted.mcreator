@@ -134,6 +134,131 @@
         ]
       },
       "path": "~/Items/Components/Copper/wave"
+    },
+    {
+      "name": "IronCog",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_cog",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/iron_cog.json",
+          "src/main/java/net/sethyn/handcrafted/item/IronCogItem.java"
+        ]
+      },
+      "path": "~/Items/Components/Iron/seth"
+    },
+    {
+      "name": "IronCogR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_cog_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/handcrafted/recipe/iron_cog_r.json"
+        ]
+      },
+      "path": "~/Items/Components/Iron/seth/recipes"
+    },
+    {
+      "name": "IronSpring",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_spring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/iron_spring.json",
+          "src/main/java/net/sethyn/handcrafted/item/IronSpringItem.java"
+        ]
+      },
+      "path": "~/Items/Components/Iron/seth"
+    },
+    {
+      "name": "IronMesh",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_mesh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/IronMeshItem.java",
+          "src/main/resources/assets/handcrafted/models/item/iron_mesh.json"
+        ]
+      },
+      "path": "~/Items/Components/Iron/seth"
+    },
+    {
+      "name": "IronRod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/IronRodItem.java",
+          "src/main/resources/assets/handcrafted/models/item/iron_rod.json"
+        ]
+      },
+      "path": "~/Items/Components/Iron/seth"
+    },
+    {
+      "name": "IronScrew",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_screw",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/IronScrewItem.java",
+          "src/main/resources/assets/handcrafted/models/item/iron_screw.json"
+        ]
+      },
+      "path": "~/Items/Components/Iron/seth"
+    },
+    {
+      "name": "IronSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_sheet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/IronSheetItem.java",
+          "src/main/resources/assets/handcrafted/models/item/iron_sheet.json"
+        ]
+      },
+      "path": "~/Items/Components/Iron/seth"
+    },
+    {
+      "name": "IronTube",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_tube",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/iron_tube.json",
+          "src/main/java/net/sethyn/handcrafted/item/IronTubeItem.java"
+        ]
+      },
+      "path": "~/Items/Components/Iron/seth"
+    },
+    {
+      "name": "IronWire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_wire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/iron_wire.json",
+          "src/main/java/net/sethyn/handcrafted/item/IronWireItem.java"
+        ]
+      },
+      "path": "~/Items/Components/Iron/seth"
     }
   ],
   "variable_elements": [],
@@ -150,7 +275,15 @@
       "item.handcrafted.copper_screw": "Copper Screw",
       "item.handcrafted.copper_sheet": "Copper Sheet",
       "item.handcrafted.copper_tube": "Copper Tube",
-      "item.handcrafted.copper_spring": "Copper Spring"
+      "item.handcrafted.copper_spring": "Copper Spring",
+      "item.handcrafted.iron_cog": "Iron Cog",
+      "item.handcrafted.iron_spring": "Iron Spring",
+      "item.handcrafted.iron_mesh": "Iron Mesh",
+      "item.handcrafted.iron_rod": "Iron Rod",
+      "item.handcrafted.iron_screw": "Iron Screw",
+      "item.handcrafted.iron_sheet": "Iron Sheet",
+      "item.handcrafted.iron_tube": "Iron Tube",
+      "item.handcrafted.iron_wire": "Iron Wire"
     }
   },
   "metadata": {
@@ -228,6 +361,15 @@
                   {
                     "name": "wave",
                     "children": []
+                  },
+                  {
+                    "name": "seth",
+                    "children": [
+                      {
+                        "name": "recipes",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               }

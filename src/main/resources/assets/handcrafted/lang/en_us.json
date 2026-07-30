@@ -7,5 +7,13 @@
   "item.handcrafted.copper_screw": "Copper Screw",
   "item.handcrafted.copper_sheet": "Copper Sheet",
   "item.handcrafted.copper_tube": "Copper Tube",
-  "item.handcrafted.copper_spring": "Copper Spring"
+  "item.handcrafted.copper_spring": "Copper Spring",
+  "item.handcrafted.iron_cog": "Iron Cog",
+  "item.handcrafted.iron_spring": "Iron Spring",
+  "item.handcrafted.iron_mesh": "Iron Mesh",
+  "item.handcrafted.iron_rod": "Iron Rod",
+  "item.handcrafted.iron_screw": "Iron Screw",
+  "item.handcrafted.iron_sheet": "Iron Sheet",
+  "item.handcrafted.iron_tube": "Iron Tube",
+  "item.handcrafted.iron_wire": "Iron Wire"
 }
