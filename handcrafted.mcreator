@@ -41,7 +41,7 @@
     {
       "name": "CopperMesh",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "copper_mesh",
       "metadata": {
@@ -68,7 +68,7 @@
     {
       "name": "CopperRod",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "copper_rod",
       "metadata": {
@@ -82,7 +82,7 @@
     {
       "name": "CopperScrew",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "copper_screw",
       "metadata": {
@@ -96,7 +96,7 @@
     {
       "name": "CopperSheet",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "copper_sheet",
       "metadata": {
@@ -110,7 +110,7 @@
     {
       "name": "CopperTube",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "copper_tube",
       "metadata": {
@@ -124,7 +124,7 @@
     {
       "name": "CopperSpring",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "copper_spring",
       "metadata": {
@@ -134,11 +134,434 @@
         ]
       },
       "path": "~/Items/Components/Copper/wave"
+    },
+    {
+      "name": "IronRod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/iron_rod.json",
+          "src/main/java/net/sethyn/handcrafted/item/IronRodItem.java"
+        ]
+      },
+      "path": "~/Items/Components/Iron"
+    },
+    {
+      "name": "IronSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_sheet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/IronSheetItem.java",
+          "src/main/resources/assets/handcrafted/models/item/iron_sheet.json"
+        ]
+      },
+      "path": "~/Items/Components/Iron"
+    },
+    {
+      "name": "GoldRod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/GoldRodItem.java",
+          "src/main/resources/assets/handcrafted/models/item/gold_rod.json"
+        ]
+      },
+      "path": "~/Items/Components/Gold"
+    },
+    {
+      "name": "CopperMagnetAssembly",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_magnet_assembly",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/CopperMagnetAssemblyItem.java",
+          "src/main/resources/assets/handcrafted/models/item/copper_magnet_assembly.json"
+        ]
+      },
+      "path": "~/Items/Components/Combined"
+    },
+    {
+      "name": "CarbonFibre",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carbon_fibre",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/carbon_fibre.json",
+          "src/main/java/net/sethyn/handcrafted/item/CarbonFibreItem.java"
+        ]
+      },
+      "path": "~/Items/Components/Materials"
+    },
+    {
+      "name": "IronCog",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_cog",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/IronCogItem.java",
+          "src/main/resources/assets/handcrafted/models/item/iron_cog.json"
+        ]
+      },
+      "path": "~/Items/Components/Iron"
+    },
+    {
+      "name": "RevolutionaryIdea",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revolutionary_idea",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/handcrafted/advancement/revolutionary_idea.json"
+        ]
+      },
+      "path": "~/Achivments"
+    },
+    {
+      "name": "IronTube",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_tube",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/IronTubeItem.java",
+          "src/main/resources/assets/handcrafted/models/item/iron_tube.json"
+        ]
+      },
+      "path": "~/Items/Components/Iron"
+    },
+    {
+      "name": "IronWire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_wire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/IronWireItem.java",
+          "src/main/resources/assets/handcrafted/models/item/iron_wire.json"
+        ]
+      },
+      "path": "~/Items/Components/Iron"
+    },
+    {
+      "name": "CoalDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/coal_dust.json",
+          "src/main/java/net/sethyn/handcrafted/item/CoalDustItem.java"
+        ]
+      },
+      "path": "~/Items/Generic"
+    },
+    {
+      "name": "TieRodR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tie_rod_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/handcrafted/recipe/tie_rod_r.json"
+        ]
+      },
+      "path": "~/Items/Components/Combined/Recipes"
+    },
+    {
+      "name": "GoldScrew",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_screw",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/gold_screw.json",
+          "src/main/java/net/sethyn/handcrafted/item/GoldScrewItem.java"
+        ]
+      },
+      "path": "~/Items/Components/Gold"
+    },
+    {
+      "name": "GoldSpring",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_spring",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/GoldSpringItem.java",
+          "src/main/resources/assets/handcrafted/models/item/gold_spring.json"
+        ]
+      },
+      "path": "~/Items/Components/Gold"
+    },
+    {
+      "name": "GoldWire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_wire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/GoldWireItem.java",
+          "src/main/resources/assets/handcrafted/models/item/gold_wire.json"
+        ]
+      },
+      "path": "~/Items/Components/Gold"
+    },
+    {
+      "name": "GoldSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_sheet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/GoldSheetItem.java",
+          "src/main/resources/assets/handcrafted/models/item/gold_sheet.json"
+        ]
+      },
+      "path": "~/Items/Components/Gold"
+    },
+    {
+      "name": "IronRingR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ring_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/handcrafted/recipe/iron_ring_r.json"
+        ]
+      },
+      "path": "~/Items/Components/Iron/recipes"
+    },
+    {
+      "name": "IronScrew",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_screw",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/iron_screw.json",
+          "src/main/java/net/sethyn/handcrafted/item/IronScrewItem.java"
+        ]
+      },
+      "path": "~/Items/Components/Iron"
+    },
+    {
+      "name": "GoldTube",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_tube",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/GoldTubeItem.java",
+          "src/main/resources/assets/handcrafted/models/item/gold_tube.json"
+        ]
+      },
+      "path": "~/Items/Components/Gold"
+    },
+    {
+      "name": "IronRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/iron_ring.json",
+          "src/main/java/net/sethyn/handcrafted/item/IronRingItem.java"
+        ]
+      },
+      "path": "~/Items/Components/Iron"
+    },
+    {
+      "name": "GoldCogR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_cog_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/handcrafted/recipe/gold_cog_r.json"
+        ]
+      },
+      "path": "~/Items/Components/Gold/Recipes"
+    },
+    {
+      "name": "Motor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/MotorItem.java",
+          "src/main/resources/assets/handcrafted/models/item/motor.json"
+        ]
+      },
+      "path": "~/Items/Components/Combined"
+    },
+    {
+      "name": "UltimateTrinket",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_trinket",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/handcrafted/advancement/ultimate_trinket.json"
+        ]
+      },
+      "path": "~/Achivments"
+    },
+    {
+      "name": "MachineBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machine_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/handcrafted/loot_table/blocks/machine_block.json",
+          "src/main/java/net/sethyn/handcrafted/block/MachineBlockBlock.java",
+          "src/main/resources/assets/handcrafted/blockstates/machine_block.json",
+          "src/main/resources/assets/handcrafted/models/item/machine_block.json",
+          "src/main/resources/assets/handcrafted/models/block/machine_block.json"
+        ]
+      },
+      "path": "~/Blocks/Non Functional"
+    },
+    {
+      "name": "IronSpring",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_spring",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/IronSpringItem.java",
+          "src/main/resources/assets/handcrafted/models/item/iron_spring.json"
+        ]
+      },
+      "path": "~/Items/Components/Iron"
+    },
+    {
+      "name": "IronCogR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_cog_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/handcrafted/recipe/iron_cog_r.json"
+        ]
+      },
+      "path": "~/Items/Components/Iron/recipes"
+    },
+    {
+      "name": "IronMesh",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_mesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/iron_mesh.json",
+          "src/main/java/net/sethyn/handcrafted/item/IronMeshItem.java"
+        ]
+      },
+      "path": "~/Items/Components/Iron"
+    },
+    {
+      "name": "CopperMagnetAssemblyR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_magnet_assembly_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/handcrafted/recipe/copper_magnet_assembly_r.json"
+        ]
+      },
+      "path": "~/Items/Components/Combined/Procedures"
+    },
+    {
+      "name": "GoldMesh",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_mesh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/GoldMeshItem.java",
+          "src/main/resources/assets/handcrafted/models/item/gold_mesh.json"
+        ]
+      },
+      "path": "~/Items/Components/Gold"
+    },
+    {
+      "name": "TieRod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tie_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/TieRodItem.java",
+          "src/main/resources/assets/handcrafted/models/item/tie_rod.json"
+        ]
+      },
+      "path": "~/Items/Components/Combined"
+    },
+    {
+      "name": "GoldCog",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_cog",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/GoldCogItem.java",
+          "src/main/resources/assets/handcrafted/models/item/gold_cog.json"
+        ]
+      },
+      "path": "~/Items/Components/Gold"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MachineBlock"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:MachineBlock"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
@@ -156,30 +579,30 @@
   "metadata": {
     "files": [
       "src/main/java/net/sethyn/handcrafted/init/HandcraftedModItems.java",
-      "src/main/java/net/sethyn/handcrafted/ai/MoveToStructureGoal.java",
-      "src/main/java/net/sethyn/handcrafted/client/renderer/SemiAquaticRenderer.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/LivingEntityRendererMixin.java",
-      "src/main/java/net/sethyn/handcrafted/client/renderer/CustomEyeOfEnderRenderer.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/sethyn/handcrafted/entity/CustomEyeOfEnderEntity.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/CameraAccessor.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/EntityRenderDispatcherMixin.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/LevelRendererMixin.java",
-      "src/main/resources/handcrafted.mixins.json",
-      "src/main/java/net/sethyn/handcrafted/network/PlayPlayerAnimationMessage.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/ItemInHandLayerMixin.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/PlayerAnimationMixin.java",
-      "src/main/java/net/sethyn/handcrafted/entity/CustomFireballEntity.java",
-      "src/main/java/net/sethyn/handcrafted/client/renderer/CustomFireballRenderer.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/ItemInHandRendererMixin.java",
-      "src/main/java/net/sethyn/handcrafted/init/HandcraftedModTabs.java",
       "src/main/java/net/sethyn/handcrafted/mixin/PlayerAnimationRendererMixin.java",
+      "src/main/java/net/sethyn/handcrafted/client/renderer/SemiAquaticRenderer.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/ItemInHandLayerMixin.java",
       "src/main/java/net/sethyn/handcrafted/client/ItemArms.java",
-      "src/main/java/net/sethyn/handcrafted/client/RenderUtils.java",
+      "src/main/java/net/sethyn/handcrafted/init/HandcraftedModTabs.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/LevelRendererMixin.java",
+      "src/main/java/net/sethyn/handcrafted/entity/CustomEyeOfEnderEntity.java",
+      "src/main/resources/handcrafted.mixins.json",
+      "src/main/java/net/sethyn/handcrafted/client/renderer/CustomEyeOfEnderRenderer.java",
       "src/main/java/net/sethyn/handcrafted/HandcraftedModPlayerAnimationAPI.java",
+      "src/main/java/net/sethyn/handcrafted/ai/MoveToStructureGoal.java",
       "src/main/java/net/sethyn/handcrafted/HandcraftedMod.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/sethyn/handcrafted/mixin/CameraAccessor.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/sethyn/handcrafted/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/net/sethyn/handcrafted/client/RenderUtils.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/EntityRenderDispatcherMixin.java",
+      "src/main/java/net/sethyn/handcrafted/client/renderer/CustomFireballRenderer.java",
+      "src/main/java/net/sethyn/handcrafted/network/PlayPlayerAnimationMessage.java",
+      "src/main/java/net/sethyn/handcrafted/entity/CustomFireballEntity.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/sethyn/handcrafted/mixin/PlayerAnimationMixin.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/LivingEntityRendererMixin.java"
     ]
   },
   "foldersRoot": {
@@ -192,48 +615,101 @@
             "name": "Components",
             "children": [
               {
-                "name": "Copper",
-                "children": [
-                  {
-                    "name": "wave",
-                    "children": [
-                      {
-                        "name": "Recipes",
-                        "children": []
-                      },
-                      {
-                        "name": "Procedures",
-                        "children": []
-                      },
-                      {
-                        "name": "GUI",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "name": "seth",
-                    "children": [
-                      {
-                        "name": "Recipes",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
+                "name": "Materials",
+                "children": []
               },
               {
                 "name": "Iron",
                 "children": [
                   {
-                    "name": "wave",
+                    "name": "Procedures",
+                    "children": []
+                  },
+                  {
+                    "name": "recipes",
+                    "children": []
+                  },
+                  {
+                    "name": "GUI",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Copper",
+                "children": [
+                  {
+                    "name": "GUI",
+                    "children": []
+                  },
+                  {
+                    "name": "Recipes",
+                    "children": []
+                  },
+                  {
+                    "name": "Procedures",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Gold",
+                "children": [
+                  {
+                    "name": "Procedures",
+                    "children": []
+                  },
+                  {
+                    "name": "Recipes",
+                    "children": []
+                  },
+                  {
+                    "name": "GUI",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Combined",
+                "children": [
+                  {
+                    "name": "GUI",
+                    "children": []
+                  },
+                  {
+                    "name": "Procedures",
+                    "children": []
+                  },
+                  {
+                    "name": "Recipes",
                     "children": []
                   }
                 ]
               }
             ]
+          },
+          {
+            "name": "Generic",
+            "children": []
           }
         ]
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Functional",
+            "children": []
+          },
+          {
+            "name": "Non Functional",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Achivments",
+        "children": []
       }
     ]
   },

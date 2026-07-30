@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "handcrafted:copper_wire"
+    },
+    "b": {
+      "item": "handcrafted:iron_ring"
+    }
+  },
+  "result": {
+    "id": "handcrafted:copper_magnet_assembly",
+    "count": 1
+  }
+}

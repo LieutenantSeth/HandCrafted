@@ -46,6 +46,8 @@ public class HandcraftedMod {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 
+		HandcraftedModBlocks.REGISTRY.register(modEventBus);
+
 		HandcraftedModItems.REGISTRY.register(modEventBus);
 
 		HandcraftedModTabs.REGISTRY.register(modEventBus);

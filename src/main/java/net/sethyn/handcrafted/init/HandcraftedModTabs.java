@@ -8,7 +8,6 @@ import net.sethyn.handcrafted.HandcraftedMod;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
@@ -17,7 +16,7 @@ import net.minecraft.core.registries.Registries;
 public class HandcraftedModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, HandcraftedMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> HANDCRAFTED = REGISTRY.register("handcrafted",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.handcrafted.handcrafted")).icon(() -> new ItemStack(Blocks.DEEPSLATE_BRICKS)).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.handcrafted.handcrafted")).icon(() -> new ItemStack(HandcraftedModItems.GOLD_COG.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(HandcraftedModItems.COPPER_COG.get());
 				tabData.accept(HandcraftedModItems.COPPER_WIRE.get());
 				tabData.accept(HandcraftedModItems.COPPER_MESH.get());
@@ -25,5 +24,27 @@ public class HandcraftedModTabs {
 				tabData.accept(HandcraftedModItems.COPPER_SCREW.get());
 				tabData.accept(HandcraftedModItems.COPPER_TUBE.get());
 				tabData.accept(HandcraftedModItems.COPPER_SPRING.get());
+				tabData.accept(HandcraftedModItems.IRON_ROD.get());
+				tabData.accept(HandcraftedModItems.IRON_SHEET.get());
+				tabData.accept(HandcraftedModItems.GOLD_ROD.get());
+				tabData.accept(HandcraftedModItems.COPPER_MAGNET_ASSEMBLY.get());
+				tabData.accept(HandcraftedModItems.CARBON_FIBRE.get());
+				tabData.accept(HandcraftedModItems.IRON_COG.get());
+				tabData.accept(HandcraftedModItems.IRON_TUBE.get());
+				tabData.accept(HandcraftedModItems.IRON_WIRE.get());
+				tabData.accept(HandcraftedModItems.COAL_DUST.get());
+				tabData.accept(HandcraftedModItems.GOLD_SPRING.get());
+				tabData.accept(HandcraftedModItems.GOLD_WIRE.get());
+				tabData.accept(HandcraftedModItems.GOLD_SHEET.get());
+				tabData.accept(HandcraftedModItems.IRON_SCREW.get());
+				tabData.accept(HandcraftedModItems.GOLD_TUBE.get());
+				tabData.accept(HandcraftedModItems.IRON_RING.get());
+				tabData.accept(HandcraftedModItems.MOTOR.get());
+				tabData.accept(HandcraftedModBlocks.MACHINE_BLOCK.get().asItem());
+				tabData.accept(HandcraftedModItems.IRON_SPRING.get());
+				tabData.accept(HandcraftedModItems.IRON_MESH.get());
+				tabData.accept(HandcraftedModItems.GOLD_MESH.get());
+				tabData.accept(HandcraftedModItems.TIE_ROD.get());
+				tabData.accept(HandcraftedModItems.GOLD_COG.get());
 			}).build());
 }

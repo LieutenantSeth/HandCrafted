@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/iron"
+    },
+    "b": {
+      "tag": "c:nuggets/iron"
+    }
+  },
+  "result": {
+    "id": "handcrafted:iron_cog",
+    "count": 1
+  }
+}

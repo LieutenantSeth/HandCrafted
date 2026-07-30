@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " b ",
+    "c  "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:nuggets/iron"
+    },
+    "b": {
+      "item": "handcrafted:iron_rod"
+    },
+    "c": {
+      "item": "handcrafted:copper_sheet"
+    }
+  },
+  "result": {
+    "id": "handcrafted:deleted_mod_element",
+    "count": 1
+  }
+}
