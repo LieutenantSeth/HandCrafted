@@ -36,7 +36,31 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Components",
+            "children": [
+              {
+                "name": "Copper",
+                "children": [
+                  {
+                    "name": "seth",
+                    "children": []
+                  },
+                  {
+                    "name": "wave",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "handcrafted",
