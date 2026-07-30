@@ -1,5 +1,11 @@
 {
   "item_group.handcrafted.handcrafted": "Handcrafted",
   "item.handcrafted.copper_cog": "Copper Cog",
-  "item.handcrafted.copper_wire": "Copper Wire"
+  "item.handcrafted.copper_wire": "Copper Wire",
+  "item.handcrafted.copper_mesh": "Copper Mesh",
+  "item.handcrafted.copper_rod": "Copper Rod",
+  "item.handcrafted.copper_screw": "Copper Screw",
+  "item.handcrafted.copper_sheet": "Copper Sheet",
+  "item.handcrafted.copper_tube": "Copper Tube",
+  "item.handcrafted.copper_spring": "Copper Spring"
 }
