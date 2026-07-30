@@ -12,7 +12,7 @@
           "src/main/resources/assets/handcrafted/models/item/copper_cog.json"
         ]
       },
-      "path": "~/Items/Components/Copper/seth"
+      "path": "~/Items/Components/Copper"
     },
     {
       "name": "CopperWire",
@@ -26,7 +26,7 @@
           "src/main/java/net/sethyn/handcrafted/item/CopperWireItem.java"
         ]
       },
-      "path": "~/Items/Components/Copper/wave"
+      "path": "~/Items/Components/Copper"
     },
     {
       "name": "Handcrafted",
@@ -50,7 +50,7 @@
           "src/main/java/net/sethyn/handcrafted/item/CopperMeshItem.java"
         ]
       },
-      "path": "~/Items/Components/Copper/seth"
+      "path": "~/Items/Components/Copper"
     },
     {
       "name": "CopperCogR",
@@ -63,7 +63,7 @@
           "src/main/resources/data/handcrafted/recipe/copper_cog_r.json"
         ]
       },
-      "path": "~/Items/Components/Copper/seth/Recipes"
+      "path": "~/Items/Components/Copper/Recipes"
     },
     {
       "name": "CopperRod",
@@ -77,7 +77,7 @@
           "src/main/java/net/sethyn/handcrafted/item/CopperRodItem.java"
         ]
       },
-      "path": "~/Items/Components/Copper/seth"
+      "path": "~/Items/Components/Copper"
     },
     {
       "name": "CopperScrew",
@@ -91,7 +91,7 @@
           "src/main/resources/assets/handcrafted/models/item/copper_screw.json"
         ]
       },
-      "path": "~/Items/Components/Copper/seth"
+      "path": "~/Items/Components/Copper"
     },
     {
       "name": "CopperSheet",
@@ -105,7 +105,7 @@
           "src/main/resources/assets/handcrafted/models/item/copper_sheet.json"
         ]
       },
-      "path": "~/Items/Components/Copper/wave"
+      "path": "~/Items/Components/Copper"
     },
     {
       "name": "CopperTube",
@@ -119,7 +119,7 @@
           "src/main/java/net/sethyn/handcrafted/item/CopperTubeItem.java"
         ]
       },
-      "path": "~/Items/Components/Copper/wave"
+      "path": "~/Items/Components/Copper"
     },
     {
       "name": "CopperSpring",
@@ -133,7 +133,7 @@
           "src/main/java/net/sethyn/handcrafted/item/CopperSpringItem.java"
         ]
       },
-      "path": "~/Items/Components/Copper/wave"
+      "path": "~/Items/Components/Copper"
     },
     {
       "name": "IronCog",
@@ -147,7 +147,7 @@
           "src/main/java/net/sethyn/handcrafted/item/IronCogItem.java"
         ]
       },
-      "path": "~/Items/Components/Iron/seth"
+      "path": "~/Items/Components/Iron"
     },
     {
       "name": "IronCogR",
@@ -160,7 +160,7 @@
           "src/main/resources/data/handcrafted/recipe/iron_cog_r.json"
         ]
       },
-      "path": "~/Items/Components/Iron/seth/recipes"
+      "path": "~/Items/Components/Iron/recipes"
     },
     {
       "name": "IronSpring",
@@ -174,7 +174,7 @@
           "src/main/java/net/sethyn/handcrafted/item/IronSpringItem.java"
         ]
       },
-      "path": "~/Items/Components/Iron/seth"
+      "path": "~/Items/Components/Iron"
     },
     {
       "name": "IronMesh",
@@ -188,7 +188,7 @@
           "src/main/resources/assets/handcrafted/models/item/iron_mesh.json"
         ]
       },
-      "path": "~/Items/Components/Iron/seth"
+      "path": "~/Items/Components/Iron"
     },
     {
       "name": "IronRod",
@@ -202,7 +202,7 @@
           "src/main/resources/assets/handcrafted/models/item/iron_rod.json"
         ]
       },
-      "path": "~/Items/Components/Iron/seth"
+      "path": "~/Items/Components/Iron"
     },
     {
       "name": "IronScrew",
@@ -216,7 +216,7 @@
           "src/main/resources/assets/handcrafted/models/item/iron_screw.json"
         ]
       },
-      "path": "~/Items/Components/Iron/seth"
+      "path": "~/Items/Components/Iron"
     },
     {
       "name": "IronSheet",
@@ -230,7 +230,7 @@
           "src/main/resources/assets/handcrafted/models/item/iron_sheet.json"
         ]
       },
-      "path": "~/Items/Components/Iron/seth"
+      "path": "~/Items/Components/Iron"
     },
     {
       "name": "IronTube",
@@ -244,7 +244,7 @@
           "src/main/java/net/sethyn/handcrafted/item/IronTubeItem.java"
         ]
       },
-      "path": "~/Items/Components/Iron/seth"
+      "path": "~/Items/Components/Iron"
     },
     {
       "name": "IronWire",
@@ -258,7 +258,145 @@
           "src/main/java/net/sethyn/handcrafted/item/IronWireItem.java"
         ]
       },
-      "path": "~/Items/Components/Iron/seth"
+      "path": "~/Items/Components/Iron"
+    },
+    {
+      "name": "GoldCog",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_cog",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/GoldCogItem.java",
+          "src/main/resources/assets/handcrafted/models/item/gold_cog.json"
+        ]
+      },
+      "path": "~/Items/Components/Gold"
+    },
+    {
+      "name": "GoldCogR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_cog_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/handcrafted/recipe/gold_cog_r.json"
+        ]
+      },
+      "path": "~/Items/Components/Gold/Recipes"
+    },
+    {
+      "name": "UltimateTrinket",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_trinket",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/handcrafted/advancement/ultimate_trinket.json"
+        ]
+      },
+      "path": "~/Achivments"
+    },
+    {
+      "name": "GoldMesh",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_mesh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/GoldMeshItem.java",
+          "src/main/resources/assets/handcrafted/models/item/gold_mesh.json"
+        ]
+      },
+      "path": "~/Items/Components/Gold"
+    },
+    {
+      "name": "GoldTube",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_tube",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/gold_tube.json",
+          "src/main/java/net/sethyn/handcrafted/item/GoldTubeItem.java"
+        ]
+      },
+      "path": "~/Items/Components/Gold"
+    },
+    {
+      "name": "GoldSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_sheet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/GoldSheetItem.java",
+          "src/main/resources/assets/handcrafted/models/item/gold_sheet.json"
+        ]
+      },
+      "path": "~/Items/Components/Gold"
+    },
+    {
+      "name": "GoldRod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/gold_rod.json",
+          "src/main/java/net/sethyn/handcrafted/item/GoldRodItem.java"
+        ]
+      },
+      "path": "~/Items/Components/Gold"
+    },
+    {
+      "name": "GoldScrew",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_screw",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/GoldScrewItem.java",
+          "src/main/resources/assets/handcrafted/models/item/gold_screw.json"
+        ]
+      },
+      "path": "~/Items/Components/Gold"
+    },
+    {
+      "name": "GoldSpring",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_spring",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/GoldSpringItem.java",
+          "src/main/resources/assets/handcrafted/models/item/gold_spring.json"
+        ]
+      },
+      "path": "~/Items/Components/Gold"
+    },
+    {
+      "name": "GoldWire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_wire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/GoldWireItem.java",
+          "src/main/resources/assets/handcrafted/models/item/gold_wire.json"
+        ]
+      },
+      "path": "~/Items/Components/Gold"
     }
   ],
   "variable_elements": [],
@@ -283,7 +421,17 @@
       "item.handcrafted.iron_screw": "Iron Screw",
       "item.handcrafted.iron_sheet": "Iron Sheet",
       "item.handcrafted.iron_tube": "Iron Tube",
-      "item.handcrafted.iron_wire": "Iron Wire"
+      "item.handcrafted.iron_wire": "Iron Wire",
+      "item.handcrafted.gold_cog": "Gold Cog",
+      "advancements.ultimate_trinket.title": "Ultimate Trinket",
+      "advancements.ultimate_trinket.descr": "Craft a Golden Cog",
+      "item.handcrafted.gold_mesh": "Gold Mesh",
+      "item.handcrafted.gold_tube": "Gold Tube",
+      "item.handcrafted.gold_sheet": "Gold Sheet",
+      "item.handcrafted.gold_rod": "Gold Rod",
+      "item.handcrafted.gold_screw": "Gold Screw",
+      "item.handcrafted.gold_spring": "Gold Spring",
+      "item.handcrafted.gold_wire": "Gold Wire"
     }
   },
   "metadata": {
@@ -328,30 +476,16 @@
                 "name": "Copper",
                 "children": [
                   {
-                    "name": "wave",
-                    "children": [
-                      {
-                        "name": "Recipes",
-                        "children": []
-                      },
-                      {
-                        "name": "Procedures",
-                        "children": []
-                      },
-                      {
-                        "name": "GUI",
-                        "children": []
-                      }
-                    ]
+                    "name": "Recipes",
+                    "children": []
                   },
                   {
-                    "name": "seth",
-                    "children": [
-                      {
-                        "name": "Recipes",
-                        "children": []
-                      }
-                    ]
+                    "name": "Procedures",
+                    "children": []
+                  },
+                  {
+                    "name": "GUI",
+                    "children": []
                   }
                 ]
               },
@@ -359,23 +493,43 @@
                 "name": "Iron",
                 "children": [
                   {
-                    "name": "wave",
+                    "name": "recipes",
                     "children": []
                   },
                   {
-                    "name": "seth",
-                    "children": [
-                      {
-                        "name": "recipes",
-                        "children": []
-                      }
-                    ]
+                    "name": "Procedures",
+                    "children": []
+                  },
+                  {
+                    "name": "GUI",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Gold",
+                "children": [
+                  {
+                    "name": "Procedures",
+                    "children": []
+                  },
+                  {
+                    "name": "Recipes",
+                    "children": []
+                  },
+                  {
+                    "name": "GUI",
+                    "children": []
                   }
                 ]
               }
             ]
           }
         ]
+      },
+      {
+        "name": "Achivments",
+        "children": []
       }
     ]
   },

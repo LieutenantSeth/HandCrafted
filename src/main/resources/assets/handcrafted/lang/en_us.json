@@ -15,5 +15,15 @@
   "item.handcrafted.iron_screw": "Iron Screw",
   "item.handcrafted.iron_sheet": "Iron Sheet",
   "item.handcrafted.iron_tube": "Iron Tube",
-  "item.handcrafted.iron_wire": "Iron Wire"
+  "item.handcrafted.iron_wire": "Iron Wire",
+  "item.handcrafted.gold_cog": "Gold Cog",
+  "advancements.ultimate_trinket.title": "Ultimate Trinket",
+  "advancements.ultimate_trinket.descr": "Craft a Golden Cog",
+  "item.handcrafted.gold_mesh": "Gold Mesh",
+  "item.handcrafted.gold_tube": "Gold Tube",
+  "item.handcrafted.gold_sheet": "Gold Sheet",
+  "item.handcrafted.gold_rod": "Gold Rod",
+  "item.handcrafted.gold_screw": "Gold Screw",
+  "item.handcrafted.gold_spring": "Gold Spring",
+  "item.handcrafted.gold_wire": "Gold Wire"
 }

@@ -33,5 +33,12 @@ public class HandcraftedModTabs {
 				tabData.accept(HandcraftedModItems.IRON_SHEET.get());
 				tabData.accept(HandcraftedModItems.IRON_TUBE.get());
 				tabData.accept(HandcraftedModItems.IRON_WIRE.get());
+				tabData.accept(HandcraftedModItems.GOLD_COG.get());
+				tabData.accept(HandcraftedModItems.GOLD_MESH.get());
+				tabData.accept(HandcraftedModItems.GOLD_TUBE.get());
+				tabData.accept(HandcraftedModItems.GOLD_SHEET.get());
+				tabData.accept(HandcraftedModItems.GOLD_ROD.get());
+				tabData.accept(HandcraftedModItems.GOLD_SPRING.get());
+				tabData.accept(HandcraftedModItems.GOLD_WIRE.get());
 			}).build());
 }

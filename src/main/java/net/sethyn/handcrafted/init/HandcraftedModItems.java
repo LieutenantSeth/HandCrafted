@@ -29,6 +29,14 @@ public class HandcraftedModItems {
 	public static final DeferredItem<Item> IRON_SHEET = REGISTRY.register("iron_sheet", IronSheetItem::new);
 	public static final DeferredItem<Item> IRON_TUBE = REGISTRY.register("iron_tube", IronTubeItem::new);
 	public static final DeferredItem<Item> IRON_WIRE = REGISTRY.register("iron_wire", IronWireItem::new);
+	public static final DeferredItem<Item> GOLD_COG = REGISTRY.register("gold_cog", GoldCogItem::new);
+	public static final DeferredItem<Item> GOLD_MESH = REGISTRY.register("gold_mesh", GoldMeshItem::new);
+	public static final DeferredItem<Item> GOLD_TUBE = REGISTRY.register("gold_tube", GoldTubeItem::new);
+	public static final DeferredItem<Item> GOLD_SHEET = REGISTRY.register("gold_sheet", GoldSheetItem::new);
+	public static final DeferredItem<Item> GOLD_ROD = REGISTRY.register("gold_rod", GoldRodItem::new);
+	public static final DeferredItem<Item> GOLD_SCREW = REGISTRY.register("gold_screw", GoldScrewItem::new);
+	public static final DeferredItem<Item> GOLD_SPRING = REGISTRY.register("gold_spring", GoldSpringItem::new);
+	public static final DeferredItem<Item> GOLD_WIRE = REGISTRY.register("gold_wire", GoldWireItem::new);
 	// Start of user code block custom items
 	// End of user code block custom items
 }
