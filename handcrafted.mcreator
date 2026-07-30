@@ -1,14 +1,43 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Handcrafted",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handcrafted",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CopperWire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_wire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/copper_wire.json",
+          "src/main/java/net/sethyn/handcrafted/item/CopperWireItem.java"
+        ]
+      },
+      "path": "~/Items/Components/Copper/wave"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.handcrafted.handcrafted": "Handcrafted",
+      "item.handcrafted.copper_wire": "Copper Wire"
+    }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/sethyn/handcrafted/init/HandcraftedModItems.java",
       "src/main/java/net/sethyn/handcrafted/ai/MoveToStructureGoal.java",
       "src/main/java/net/sethyn/handcrafted/client/renderer/SemiAquaticRenderer.java",
       "src/main/java/net/sethyn/handcrafted/mixin/LivingEntityRendererMixin.java",
@@ -26,6 +55,7 @@
       "src/main/java/net/sethyn/handcrafted/entity/CustomFireballEntity.java",
       "src/main/java/net/sethyn/handcrafted/client/renderer/CustomFireballRenderer.java",
       "src/main/java/net/sethyn/handcrafted/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/net/sethyn/handcrafted/init/HandcraftedModTabs.java",
       "src/main/java/net/sethyn/handcrafted/mixin/PlayerAnimationRendererMixin.java",
       "src/main/java/net/sethyn/handcrafted/client/ItemArms.java",
       "src/main/java/net/sethyn/handcrafted/client/RenderUtils.java",

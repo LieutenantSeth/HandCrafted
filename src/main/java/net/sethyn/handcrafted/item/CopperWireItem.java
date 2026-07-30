@@ -1,0 +1,9 @@
+package net.sethyn.handcrafted.item;
+
+import net.minecraft.world.item.Item;
+
+public class CopperWireItem extends Item {
+	public CopperWireItem() {
+		super(new Item.Properties());
+	}
+}
