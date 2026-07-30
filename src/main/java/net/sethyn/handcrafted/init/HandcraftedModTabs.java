@@ -18,6 +18,10 @@ public class HandcraftedModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, HandcraftedMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> HANDCRAFTED = REGISTRY.register("handcrafted",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.handcrafted.handcrafted")).icon(() -> new ItemStack(Blocks.DEEPSLATE_BRICKS)).displayItems((parameters, tabData) -> {
+				tabData.accept(HandcraftedModItems.COPPER_COG.get());
 				tabData.accept(HandcraftedModItems.COPPER_WIRE.get());
+				tabData.accept(HandcraftedModItems.COPPER_MESH.get());
+				tabData.accept(HandcraftedModItems.COPPER_ROD.get());
+				tabData.accept(HandcraftedModItems.COPPER_SCREW.get());
 			}).build());
 }

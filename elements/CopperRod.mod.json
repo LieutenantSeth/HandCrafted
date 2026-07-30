@@ -3,13 +3,13 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "copper_cog",
+    "texture": "copper_rod",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Copper Cog",
+    "name": "Copper Rod",
     "rarity": "COMMON",
     "creativeTabs": [
       {
