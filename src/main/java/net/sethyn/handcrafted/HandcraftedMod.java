@@ -3,6 +3,7 @@ package net.sethyn.handcrafted;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.sethyn.handcrafted.init.HandcraftedModTabs;
 import net.sethyn.handcrafted.init.HandcraftedModItems;
 
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
@@ -46,6 +47,8 @@ public class HandcraftedMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		HandcraftedModItems.REGISTRY.register(modEventBus);
+
+		HandcraftedModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Handcrafted",
+    "icon": {
+      "value": "Blocks.DEEPSLATE_BRICKS"
+    },
+    "showSearch": false
+  }
+}
