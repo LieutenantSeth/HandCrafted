@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "handcrafted:motor"
+      "id": "handcrafted:deleted_mod_element"
     },
     "title": {
       "translate": "advancements.revolutionary_idea.title"
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "handcrafted:motor"
+              "handcrafted:deleted_mod_element"
             ],
             "count": {
               "min": 1,
@@ -35,5 +35,5 @@
   "rewards": {
     "experience": 20
   },
-  "parent": "handcrafted:ultimate_trinket"
+  "parent": "handcrafted:deleted_mod_element"
 }

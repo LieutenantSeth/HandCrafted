@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "handcrafted:gold_cog"
+      "id": "handcrafted:deleted_mod_element"
     },
     "title": {
       "translate": "advancements.ultimate_trinket.title"
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "handcrafted:gold_cog"
+              "handcrafted:deleted_mod_element"
             ],
             "count": {
               "min": 1,

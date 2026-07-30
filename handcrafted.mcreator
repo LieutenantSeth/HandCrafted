@@ -532,7 +532,7 @@
           "src/main/resources/data/handcrafted/recipe/copper_magnet_assembly_r.json"
         ]
       },
-      "path": "~/Items/Components/Combined/Recipes"
+      "path": "~/Items/Components/Combined/Procedures"
     },
     {
       "name": "MachineBlock",
@@ -642,14 +642,18 @@
             "name": "Components",
             "children": [
               {
-                "name": "Copper",
+                "name": "Materials",
+                "children": []
+              },
+              {
+                "name": "Iron",
                 "children": [
                   {
-                    "name": "Recipes",
+                    "name": "Procedures",
                     "children": []
                   },
                   {
-                    "name": "Procedures",
+                    "name": "recipes",
                     "children": []
                   },
                   {
@@ -659,18 +663,18 @@
                 ]
               },
               {
-                "name": "Iron",
+                "name": "Copper",
                 "children": [
                   {
-                    "name": "recipes",
+                    "name": "GUI",
+                    "children": []
+                  },
+                  {
+                    "name": "Recipes",
                     "children": []
                   },
                   {
                     "name": "Procedures",
-                    "children": []
-                  },
-                  {
-                    "name": "GUI",
                     "children": []
                   }
                 ]
@@ -683,11 +687,11 @@
                     "children": []
                   },
                   {
-                    "name": "Recipes",
+                    "name": "GUI",
                     "children": []
                   },
                   {
-                    "name": "GUI",
+                    "name": "Recipes",
                     "children": []
                   }
                 ]
@@ -696,7 +700,7 @@
                 "name": "Combined",
                 "children": [
                   {
-                    "name": "GUI",
+                    "name": "Recipes",
                     "children": []
                   },
                   {
@@ -704,14 +708,10 @@
                     "children": []
                   },
                   {
-                    "name": "Recipes",
+                    "name": "GUI",
                     "children": []
                   }
                 ]
-              },
-              {
-                "name": "Materials",
-                "children": []
               }
             ]
           },
@@ -722,21 +722,21 @@
         ]
       },
       {
-        "name": "Achivments",
-        "children": []
-      },
-      {
         "name": "Blocks",
         "children": [
           {
-            "name": "Functional",
+            "name": "Non Functional",
             "children": []
           },
           {
-            "name": "Non Functional",
+            "name": "Functional",
             "children": []
           }
         ]
+      },
+      {
+        "name": "Achivments",
+        "children": []
       }
     ]
   },
