@@ -33,5 +33,6 @@
   "item.handcrafted.copper_magnet_assembly": "Copper Magnet Assembly",
   "item.handcrafted.iron_ring": "Iron Ring",
   "item.handcrafted.coal_dust": "Coal Dust",
-  "item.handcrafted.carbon_fibre": "Carbon Fibre"
+  "item.handcrafted.carbon_fibre": "Carbon Fibre",
+  "block.handcrafted.machine_block": "Machine Block"
 }

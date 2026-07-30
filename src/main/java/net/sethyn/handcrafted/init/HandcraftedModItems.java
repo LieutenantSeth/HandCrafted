@@ -8,8 +8,11 @@ import net.sethyn.handcrafted.HandcraftedMod;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 public class HandcraftedModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(HandcraftedMod.MODID);
@@ -43,6 +46,11 @@ public class HandcraftedModItems {
 	public static final DeferredItem<Item> IRON_RING = REGISTRY.register("iron_ring", IronRingItem::new);
 	public static final DeferredItem<Item> COAL_DUST = REGISTRY.register("coal_dust", CoalDustItem::new);
 	public static final DeferredItem<Item> CARBON_FIBRE = REGISTRY.register("carbon_fibre", CarbonFibreItem::new);
+	public static final DeferredItem<Item> MACHINE_BLOCK = block(HandcraftedModBlocks.MACHINE_BLOCK);
+
 	// Start of user code block custom items
 	// End of user code block custom items
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }

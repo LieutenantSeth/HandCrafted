@@ -45,5 +45,6 @@ public class HandcraftedModTabs {
 				tabData.accept(HandcraftedModItems.IRON_RING.get());
 				tabData.accept(HandcraftedModItems.COAL_DUST.get());
 				tabData.accept(HandcraftedModItems.CARBON_FIBRE.get());
+				tabData.accept(HandcraftedModBlocks.MACHINE_BLOCK.get().asItem());
 			}).build());
 }

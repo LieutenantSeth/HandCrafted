@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CopperWire"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CopperWire"
+      },
+      {
+        "value": "CUSTOM:IronRing"
+      },
+      {
+        "value": "CUSTOM:CopperWire"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CopperWire"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CopperMagnetAssembly"
+    },
+    "name": "copper_magnet_assembly_r",
+    "namespace": "mod"
+  }
+}

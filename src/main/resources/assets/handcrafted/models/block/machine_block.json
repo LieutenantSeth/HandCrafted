@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "handcrafted:block/machineblock",
+    "up": "handcrafted:block/machineblock",
+    "north": "handcrafted:block/machineblock",
+    "east": "handcrafted:block/machineblock",
+    "south": "handcrafted:block/machineblock",
+    "west": "handcrafted:block/machineblock",
+    "particle": "handcrafted:block/machineblock"
+  },
+  "render_type": "solid"
+}

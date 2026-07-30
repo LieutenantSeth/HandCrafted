@@ -520,11 +520,48 @@
         ]
       },
       "path": "~/Items/Components/Materials"
+    },
+    {
+      "name": "CopperMagnetAssemblyR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_magnet_assembly_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/handcrafted/recipe/copper_magnet_assembly_r.json"
+        ]
+      },
+      "path": "~/Items/Components/Combined/Procedures"
+    },
+    {
+      "name": "MachineBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machine_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/block/MachineBlockBlock.java",
+          "src/main/resources/data/handcrafted/loot_table/blocks/machine_block.json",
+          "src/main/resources/assets/handcrafted/blockstates/machine_block.json",
+          "src/main/resources/assets/handcrafted/models/item/machine_block.json",
+          "src/main/resources/assets/handcrafted/models/block/machine_block.json"
+        ]
+      },
+      "path": "~/Blocks/Non Functional"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MachineBlock"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:MachineBlock"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
@@ -562,7 +599,8 @@
       "item.handcrafted.copper_magnet_assembly": "Copper Magnet Assembly",
       "item.handcrafted.iron_ring": "Iron Ring",
       "item.handcrafted.coal_dust": "Coal Dust",
-      "item.handcrafted.carbon_fibre": "Carbon Fibre"
+      "item.handcrafted.carbon_fibre": "Carbon Fibre",
+      "block.handcrafted.machine_block": "Machine Block"
     }
   },
   "metadata": {
@@ -692,6 +730,10 @@
         "children": [
           {
             "name": "Functional",
+            "children": []
+          },
+          {
+            "name": "Non Functional",
             "children": []
           }
         ]
