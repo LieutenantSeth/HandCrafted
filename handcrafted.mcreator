@@ -1,0 +1,57 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/sethyn/handcrafted/ai/MoveToStructureGoal.java",
+      "src/main/java/net/sethyn/handcrafted/client/renderer/SemiAquaticRenderer.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/LivingEntityRendererMixin.java",
+      "src/main/java/net/sethyn/handcrafted/client/renderer/CustomEyeOfEnderRenderer.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/sethyn/handcrafted/entity/CustomEyeOfEnderEntity.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/CameraAccessor.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/EntityRenderDispatcherMixin.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/LevelRendererMixin.java",
+      "src/main/resources/handcrafted.mixins.json",
+      "src/main/java/net/sethyn/handcrafted/network/PlayPlayerAnimationMessage.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/ItemInHandLayerMixin.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/PlayerAnimationMixin.java",
+      "src/main/java/net/sethyn/handcrafted/entity/CustomFireballEntity.java",
+      "src/main/java/net/sethyn/handcrafted/client/renderer/CustomFireballRenderer.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/PlayerAnimationRendererMixin.java",
+      "src/main/java/net/sethyn/handcrafted/client/ItemArms.java",
+      "src/main/java/net/sethyn/handcrafted/client/RenderUtils.java",
+      "src/main/java/net/sethyn/handcrafted/HandcraftedModPlayerAnimationAPI.java",
+      "src/main/java/net/sethyn/handcrafted/HandcraftedMod.java",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "handcrafted",
+    "modName": "Handcrafted",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.sethyn.handcrafted"
+  },
+  "mcreatorVersion": 202500345720
+}
