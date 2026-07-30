@@ -11,8 +11,7 @@
           "src/main/java/net/sethyn/handcrafted/item/CopperCogItem.java",
           "src/main/resources/assets/handcrafted/models/item/copper_cog.json"
         ]
-      },
-      "path": "~/Items/Components/Copper/seth"
+      }
     },
     {
       "name": "CopperWire",
@@ -25,8 +24,7 @@
           "src/main/resources/assets/handcrafted/models/item/copper_wire.json",
           "src/main/java/net/sethyn/handcrafted/item/CopperWireItem.java"
         ]
-      },
-      "path": "~/Items/Components/Copper/wave"
+      }
     },
     {
       "name": "Handcrafted",
@@ -41,7 +39,7 @@
     {
       "name": "CopperMesh",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "copper_mesh",
       "metadata": {
@@ -49,8 +47,7 @@
           "src/main/resources/assets/handcrafted/models/item/copper_mesh.json",
           "src/main/java/net/sethyn/handcrafted/item/CopperMeshItem.java"
         ]
-      },
-      "path": "~/Items/Components/Copper/seth"
+      }
     },
     {
       "name": "CopperCogR",
@@ -62,13 +59,12 @@
         "files": [
           "src/main/resources/data/handcrafted/recipe/copper_cog_r.json"
         ]
-      },
-      "path": "~/Items/Components/Copper/seth/Recipes"
+      }
     },
     {
       "name": "CopperRod",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "copper_rod",
       "metadata": {
@@ -76,13 +72,12 @@
           "src/main/resources/assets/handcrafted/models/item/copper_rod.json",
           "src/main/java/net/sethyn/handcrafted/item/CopperRodItem.java"
         ]
-      },
-      "path": "~/Items/Components/Copper/seth"
+      }
     },
     {
       "name": "CopperScrew",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "copper_screw",
       "metadata": {
@@ -90,13 +85,12 @@
           "src/main/java/net/sethyn/handcrafted/item/CopperScrewItem.java",
           "src/main/resources/assets/handcrafted/models/item/copper_screw.json"
         ]
-      },
-      "path": "~/Items/Components/Copper/seth"
+      }
     },
     {
       "name": "CopperSheet",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "copper_sheet",
       "metadata": {
@@ -104,13 +98,12 @@
           "src/main/resources/assets/handcrafted/models/item/copper_sheet.json",
           "src/main/java/net/sethyn/handcrafted/item/CopperSheetItem.java"
         ]
-      },
-      "path": "~/Items/Components/Copper/wave"
+      }
     },
     {
       "name": "CopperTube",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "copper_tube",
       "metadata": {
@@ -118,13 +111,12 @@
           "src/main/resources/assets/handcrafted/models/item/copper_tube.json",
           "src/main/java/net/sethyn/handcrafted/item/CopperTubeItem.java"
         ]
-      },
-      "path": "~/Items/Components/Copper/wave"
+      }
     },
     {
       "name": "CopperSpring",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "copper_spring",
       "metadata": {
@@ -132,8 +124,7 @@
           "src/main/resources/assets/handcrafted/models/item/copper_spring.json",
           "src/main/java/net/sethyn/handcrafted/item/CopperSpringItem.java"
         ]
-      },
-      "path": "~/Items/Components/Copper/wave"
+      }
     },
     {
       "name": "IronRod",
@@ -579,30 +570,30 @@
   "metadata": {
     "files": [
       "src/main/java/net/sethyn/handcrafted/init/HandcraftedModItems.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/PlayerAnimationRendererMixin.java",
-      "src/main/java/net/sethyn/handcrafted/client/renderer/SemiAquaticRenderer.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/ItemInHandLayerMixin.java",
-      "src/main/java/net/sethyn/handcrafted/client/ItemArms.java",
-      "src/main/java/net/sethyn/handcrafted/init/HandcraftedModTabs.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/LevelRendererMixin.java",
-      "src/main/java/net/sethyn/handcrafted/entity/CustomEyeOfEnderEntity.java",
-      "src/main/resources/handcrafted.mixins.json",
-      "src/main/java/net/sethyn/handcrafted/client/renderer/CustomEyeOfEnderRenderer.java",
-      "src/main/java/net/sethyn/handcrafted/HandcraftedModPlayerAnimationAPI.java",
       "src/main/java/net/sethyn/handcrafted/ai/MoveToStructureGoal.java",
-      "src/main/java/net/sethyn/handcrafted/HandcraftedMod.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/CameraAccessor.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/sethyn/handcrafted/client/renderer/SemiAquaticRenderer.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/LivingEntityRendererMixin.java",
+      "src/main/java/net/sethyn/handcrafted/client/renderer/CustomEyeOfEnderRenderer.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/sethyn/handcrafted/mixin/ItemInHandRendererMixin.java",
-      "src/main/java/net/sethyn/handcrafted/client/RenderUtils.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/sethyn/handcrafted/entity/CustomEyeOfEnderEntity.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/CameraAccessor.java",
       "src/main/java/net/sethyn/handcrafted/mixin/EntityRenderDispatcherMixin.java",
-      "src/main/java/net/sethyn/handcrafted/client/renderer/CustomFireballRenderer.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/LevelRendererMixin.java",
+      "src/main/resources/handcrafted.mixins.json",
       "src/main/java/net/sethyn/handcrafted/network/PlayPlayerAnimationMessage.java",
-      "src/main/java/net/sethyn/handcrafted/entity/CustomFireballEntity.java",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/sethyn/handcrafted/mixin/ItemInHandLayerMixin.java",
       "src/main/java/net/sethyn/handcrafted/mixin/PlayerAnimationMixin.java",
-      "src/main/java/net/sethyn/handcrafted/mixin/LivingEntityRendererMixin.java"
+      "src/main/java/net/sethyn/handcrafted/entity/CustomFireballEntity.java",
+      "src/main/java/net/sethyn/handcrafted/client/renderer/CustomFireballRenderer.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/net/sethyn/handcrafted/init/HandcraftedModTabs.java",
+      "src/main/java/net/sethyn/handcrafted/mixin/PlayerAnimationRendererMixin.java",
+      "src/main/java/net/sethyn/handcrafted/client/ItemArms.java",
+      "src/main/java/net/sethyn/handcrafted/client/RenderUtils.java",
+      "src/main/java/net/sethyn/handcrafted/HandcraftedModPlayerAnimationAPI.java",
+      "src/main/java/net/sethyn/handcrafted/HandcraftedMod.java",
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
