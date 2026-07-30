@@ -19,5 +19,7 @@ public class HandcraftedModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> HANDCRAFTED = REGISTRY.register("handcrafted",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.handcrafted.handcrafted")).icon(() -> new ItemStack(Blocks.DEEPSLATE_BRICKS)).displayItems((parameters, tabData) -> {
 				tabData.accept(HandcraftedModItems.COPPER_WIRE.get());
+				tabData.accept(HandcraftedModItems.COPPER_TUBE.get());
+				tabData.accept(HandcraftedModItems.COPPER_SPRING.get());
 			}).build());
 }
