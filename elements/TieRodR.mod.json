@@ -16,34 +16,34 @@
         "value": ""
       },
       {
-        "value": "TAG:c:ingots/copper"
+        "value": ""
+      },
+      {
+        "value": "TAG:c:nuggets/iron"
       },
       {
         "value": ""
       },
       {
-        "value": "TAG:c:ingots/copper"
-      },
-      {
-        "value": "TAG:c:nuggets/copper"
-      },
-      {
-        "value": "TAG:c:ingots/copper"
+        "value": "CUSTOM:IronRod"
       },
       {
         "value": ""
       },
       {
-        "value": "TAG:c:ingots/copper"
+        "value": "CUSTOM:CopperSheet"
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CopperCog"
+      "value": "CUSTOM:TieRod"
     },
-    "name": "copper_cog_r",
+    "name": "tie_rod_r",
     "namespace": "mod"
   }
 }

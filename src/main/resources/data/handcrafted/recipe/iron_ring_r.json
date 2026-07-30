@@ -3,19 +3,16 @@
   "category": "misc",
   "pattern": [
     " a ",
-    "aba",
+    "a a",
     " a "
   ],
   "key": {
     "a": {
-      "tag": "c:ingots/gold"
-    },
-    "b": {
-      "tag": "c:nuggets/gold"
+      "tag": "c:ingots/iron"
     }
   },
   "result": {
-    "id": "handcrafted:gold_cog",
+    "id": "handcrafted:iron_ring",
     "count": 1
   }
 }

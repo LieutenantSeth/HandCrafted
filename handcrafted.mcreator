@@ -397,6 +397,101 @@
         ]
       },
       "path": "~/Items/Components/Gold"
+    },
+    {
+      "name": "Motor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/handcrafted/models/item/motor.json",
+          "src/main/java/net/sethyn/handcrafted/item/MotorItem.java"
+        ]
+      },
+      "path": "~/Items/Components/Combined"
+    },
+    {
+      "name": "RevolutionaryIdea",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revolutionary_idea",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/handcrafted/advancement/revolutionary_idea.json"
+        ]
+      },
+      "path": "~/Achivments"
+    },
+    {
+      "name": "TieRod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tie_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/TieRodItem.java",
+          "src/main/resources/assets/handcrafted/models/item/tie_rod.json"
+        ]
+      },
+      "path": "~/Items/Components/Combined"
+    },
+    {
+      "name": "TieRodR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tie_rod_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/handcrafted/recipe/tie_rod_r.json"
+        ]
+      },
+      "path": "~/Items/Components/Combined/Recipes"
+    },
+    {
+      "name": "CopperMagnetAssembly",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_magnet_assembly",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/CopperMagnetAssemblyItem.java",
+          "src/main/resources/assets/handcrafted/models/item/copper_magnet_assembly.json"
+        ]
+      },
+      "path": "~/Items/Components/Combined"
+    },
+    {
+      "name": "IronRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ring",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sethyn/handcrafted/item/IronRingItem.java",
+          "src/main/resources/assets/handcrafted/models/item/iron_ring.json"
+        ]
+      },
+      "path": "~/Items/Components/Iron"
+    },
+    {
+      "name": "IronRingR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ring_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/handcrafted/recipe/iron_ring_r.json"
+        ]
+      },
+      "path": "~/Items/Components/Iron/recipes"
     }
   ],
   "variable_elements": [],
@@ -431,7 +526,13 @@
       "item.handcrafted.gold_rod": "Gold Rod",
       "item.handcrafted.gold_screw": "Gold Screw",
       "item.handcrafted.gold_spring": "Gold Spring",
-      "item.handcrafted.gold_wire": "Gold Wire"
+      "item.handcrafted.gold_wire": "Gold Wire",
+      "item.handcrafted.motor": "Electric motor",
+      "advancements.revolutionary_idea.descr": "funny? get this by crafting and electric motor",
+      "advancements.revolutionary_idea.title": "Rev-olutionary Idea",
+      "item.handcrafted.tie_rod": "Tie Rod",
+      "item.handcrafted.copper_magnet_assembly": "Copper Magnet Assembly",
+      "item.handcrafted.iron_ring": "Iron Ring"
     }
   },
   "metadata": {
@@ -519,6 +620,23 @@
                   },
                   {
                     "name": "GUI",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Combined",
+                "children": [
+                  {
+                    "name": "GUI",
+                    "children": []
+                  },
+                  {
+                    "name": "Procedures",
+                    "children": []
+                  },
+                  {
+                    "name": "Recipes",
                     "children": []
                   }
                 ]

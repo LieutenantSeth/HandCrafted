@@ -25,5 +25,11 @@
   "item.handcrafted.gold_rod": "Gold Rod",
   "item.handcrafted.gold_screw": "Gold Screw",
   "item.handcrafted.gold_spring": "Gold Spring",
-  "item.handcrafted.gold_wire": "Gold Wire"
+  "item.handcrafted.gold_wire": "Gold Wire",
+  "item.handcrafted.motor": "Electric motor",
+  "advancements.revolutionary_idea.descr": "funny? get this by crafting and electric motor",
+  "advancements.revolutionary_idea.title": "Rev-olutionary Idea",
+  "item.handcrafted.tie_rod": "Tie Rod",
+  "item.handcrafted.copper_magnet_assembly": "Copper Magnet Assembly",
+  "item.handcrafted.iron_ring": "Iron Ring"
 }

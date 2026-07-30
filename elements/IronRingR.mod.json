@@ -16,34 +16,34 @@
         "value": ""
       },
       {
-        "value": "TAG:c:ingots/copper"
+        "value": "TAG:c:ingots/iron"
       },
       {
         "value": ""
       },
       {
-        "value": "TAG:c:ingots/copper"
-      },
-      {
-        "value": "TAG:c:nuggets/copper"
-      },
-      {
-        "value": "TAG:c:ingots/copper"
+        "value": "TAG:c:ingots/iron"
       },
       {
         "value": ""
       },
       {
-        "value": "TAG:c:ingots/copper"
+        "value": "TAG:c:ingots/iron"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:c:ingots/iron"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CopperCog"
+      "value": "CUSTOM:IronRing"
     },
-    "name": "copper_cog_r",
+    "name": "iron_ring_r",
     "namespace": "mod"
   }
 }

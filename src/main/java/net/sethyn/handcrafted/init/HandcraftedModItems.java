@@ -37,6 +37,10 @@ public class HandcraftedModItems {
 	public static final DeferredItem<Item> GOLD_SCREW = REGISTRY.register("gold_screw", GoldScrewItem::new);
 	public static final DeferredItem<Item> GOLD_SPRING = REGISTRY.register("gold_spring", GoldSpringItem::new);
 	public static final DeferredItem<Item> GOLD_WIRE = REGISTRY.register("gold_wire", GoldWireItem::new);
+	public static final DeferredItem<Item> MOTOR = REGISTRY.register("motor", MotorItem::new);
+	public static final DeferredItem<Item> TIE_ROD = REGISTRY.register("tie_rod", TieRodItem::new);
+	public static final DeferredItem<Item> COPPER_MAGNET_ASSEMBLY = REGISTRY.register("copper_magnet_assembly", CopperMagnetAssemblyItem::new);
+	public static final DeferredItem<Item> IRON_RING = REGISTRY.register("iron_ring", IronRingItem::new);
 	// Start of user code block custom items
 	// End of user code block custom items
 }
