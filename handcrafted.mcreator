@@ -532,7 +532,7 @@
           "src/main/resources/data/handcrafted/recipe/copper_magnet_assembly_r.json"
         ]
       },
-      "path": "~/Items/Components/Combined/Procedures"
+      "path": "~/Items/Components/Combined/Recipes"
     },
     {
       "name": "MachineBlock",
